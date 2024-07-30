@@ -1,0 +1,10 @@
+.modalP{
+    color: black;
+}
+.modalS{
+    color: gray;
+}
+.modal-img{
+   max-width: 200px; 
+   max-height: 400px; 
+}

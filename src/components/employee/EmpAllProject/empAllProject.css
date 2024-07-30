@@ -1,0 +1,29 @@
+.project-card {
+  width: 20rem;
+  height: 18rem;
+  overflow-y: scroll;
+  /* -ms-overflow-style: none;  IE and Edge */
+  /* scrollbar-width: none;  Firefox */
+}
+
+.project-card::-webkit-scrollbar {
+  width: 5px;
+  
+}
+
+/* Track */
+.project-card::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+ 
+/* Handle */
+.project-card::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+.project-card::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

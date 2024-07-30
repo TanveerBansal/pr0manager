@@ -1,0 +1,40 @@
+.rw-div {
+  /* margin-top: 8rem; */
+  min-height: 15rem;
+  /* max-height: 40rem; */
+  overflow-y: scroll;
+  /* margin: 8rem 0rem 0rem 0rem; */
+  /* -ms-overflow-style: none;  IE and Edge */
+  /* scrollbar-width: none;  Firefox */
+}
+
+.rw-div::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+.rw-div::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+/* Handle */
+.rw-div::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+.rw-div::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.rw-card {
+  box-shadow: inset 0px 0px 6px rgb(128, 127, 127);
+}
+.rw-radio-div {
+  margin: 0rem 0rem 0rem 10rem;
+}
+.rw-send-btn {
+  margin: 0rem 13rem;
+}

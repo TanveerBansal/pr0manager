@@ -1,0 +1,37 @@
+.comp-work-card {
+  /* min-height: 15rem; */
+  max-height: 16rem;
+  overflow-y: scroll;
+
+  /* -ms-overflow-style: none;  IE and Edge */
+  /* scrollbar-width: none;  Firefox */
+}
+
+.comp-work-card::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.comp-work-card::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+/* Handle */
+.comp-work-card::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+.comp-work-card::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.comp-work-span{
+    color:  #083ea1;
+    
+}
+.comp-work-desc-span{
+    color:  #083ea1;
+}

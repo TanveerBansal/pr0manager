@@ -1,0 +1,32 @@
+.emp-task-des {
+  text-align: justify;
+  /* -ms-overflow-style: none; */   /* IE and Edge */
+  /* scrollbar-width: none;   */    /* Firefox */
+}
+.emp-task-deadline{
+  text-align: justify;
+}
+.emp-task-card{
+  max-height: 13rem;
+  overflow-y: scroll;
+}
+.emp-task-card::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.emp-task-card::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+/* Handle */
+.emp-task-card::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+.emp-task-card::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
