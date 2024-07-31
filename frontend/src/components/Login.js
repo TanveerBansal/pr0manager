@@ -79,7 +79,7 @@ export default function Login() {
         <Fragment>
             <div className="login-container">
                 <div className="login-box">
-                    <h2 id="login-name">ProManager</h2>
+                    <h2 id="login-name">Manager</h2>
                     <br />
                     <form id="log-form" onSubmit={handle}>
                         <div className="user-box user-mail">
