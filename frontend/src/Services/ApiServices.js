@@ -3,7 +3,7 @@ import axios from "axios"
 
 //environment for base url(localhost5000)
 // export const BASE_URL = "http://localhost:5000/"
-export const BASE_URL = "https://pro-manager-jet.vercel.app/"
+export const BASE_URL = "https://pr0manager.vercel.app/"
 
 class ApiServices {
 
