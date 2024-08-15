@@ -285,14 +285,6 @@ class ApiServices {
     }
     //project api end
 
-    // task api start
-    EmpAllTask(empAllTask) {
-        return (
-            axios.post(BASE_URL + "employee/task/all", empAllTask, { headers: this.getToken()})
-        )
-    }
-
-    //task api end
 
     // project team api start
     EmpAllTeam(empAllTeam) {
@@ -344,9 +336,8 @@ class ApiServices {
             axios.post(BASE_URL+"employee/all/coins" , coinsData, {headers : this.getToken()})
         )
     }
-    // coin view api end
-
 }
+// coin view api end
 
 export default new ApiServices;
 // const services = new ApiServices();
