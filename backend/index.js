@@ -12,14 +12,14 @@ const employeeRout = require('./server/routes/employeeRoutes')
 const server = http.createServer(app);
 const io = new Server(server, {
     cors:{
-        // origin: ['http://localhost:3000'],
+        origin: ['http://localhost:3000'],
         // origin: ['https://earnest-gingersnap-61dd55.netlify.app/'],
         methods: ['GET', 'POST']
     }
 })
 
 const corsOption = {
-    // origin: "http://localhost:3000"
+    origin: "http://localhost:3000"
     // origin: "https://earnest-gingersnap-61dd55.netlify.app/"
 }
 app.use(cors(corsOption))
